@@ -113,6 +113,13 @@ const toggleCategory = (e) =>{
               ENFANTS
             </p>
             <p className="flex gap-2">
+              <input className="w-3 cursor-pointer" value={"Electroniques"} onChange={toggleCategory}  type="checkbox" />
+              Electroniques
+            </p>
+
+            {/*               <option value="Electroniques">ELECTRONIQUES</option>
+ */}
+            <p className="flex gap-2">
               <input className="w-3 cursor-pointer" value={"Autres"} onChange={toggleCategory}  type="checkbox" />
               AUTRES
             </p>
@@ -170,6 +177,10 @@ const toggleCategory = (e) =>{
             <p className="flex gap-2 uppercase">
               <input className="w-3  cursor-pointer " value={"Pagnes"} type="checkbox" onChange={toggleSubCategory}/>
               Pagnes africains 
+            </p>
+            <p className="flex gap-2 uppercase">
+              <input className="w-3  cursor-pointer " value={"Frigos"} type="checkbox" onChange={toggleSubCategory}/>
+             Réfrigérateur
             </p>
             
             <p className="flex gap-2 uppercase">
