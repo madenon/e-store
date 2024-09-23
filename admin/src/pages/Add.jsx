@@ -477,6 +477,561 @@ const Add = ({token}) => {
                 37-38
               </p>
             </div>
+
+            {/* 32 */}
+
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("32 GO")
+                    ? prev.filter((item) => item !== "32 GO")
+                    : [...prev, "32 GO"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("32 GO") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+                32 GO
+              </p>
+            </div>
+
+            {/* 64 */}
+
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("64 GO")
+                    ? prev.filter((item) => item !== "64 GO")
+                    : [...prev, "64 GO"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("64 GO") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+                64 GO
+              </p>
+            </div>
+            {/* Giga 128 */}
+
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("128 GO")
+                    ? prev.filter((item) => item !== "128 GO")
+                    : [...prev, "128 GO"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("128 GO") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+                128 GO
+              </p>
+            </div>
+
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("256 GO")
+                    ? prev.filter((item) => item !== "256 GO")
+                    : [...prev, "256 GO"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("256 GO") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+                256 GO
+              </p>
+            </div>
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("1TO")
+                    ? prev.filter((item) => item !== "1TO")
+                    : [...prev, "1TO"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("1TO") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+                1TO
+              </p>
+            </div>
+
+            {/* Couleure */}
+
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Noir")
+                    ? prev.filter((item) => item !== "Noir")
+                    : [...prev, "Noir"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Noir") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+                Noir
+              </p>
+            </div>
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Rouge")
+                    ? prev.filter((item) => item !== "Rouge")
+                    : [...prev, "Rouge"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Rouge") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+                Rouge
+              </p>
+            </div>
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Blanc")
+                    ? prev.filter((item) => item !== "Blanc")
+                    : [...prev, "Blanc"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Blanc") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+                Blanc
+              </p>
+            </div>
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Gris")
+                    ? prev.filter((item) => item !== "Gris")
+                    : [...prev, "Gris"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Gris") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+              Gris
+              </p>
+            </div>
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Beige")
+                    ? prev.filter((item) => item !== "Beige")
+                    : [...prev, "Beige"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Beige") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+              Beige
+              </p>
+            </div>
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Marron")
+                    ? prev.filter((item) => item !== "Marron")
+                    : [...prev, "BeiMarronge"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Marron") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+              Marron
+              </p>
+            </div>
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("100 Pages")
+                    ? prev.filter((item) => item !== "100 Pages")
+                    : [...prev, "100 Pages"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("100 Pages") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+               100  pages
+              </p>
+            </div>
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("120 Pages")
+                    ? prev.filter((item) => item !== "120 Pages")
+                    : [...prev, "120 Pages"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("120 Pages") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+               120  pages
+              </p>
+            </div>
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("150 Pages")
+                    ? prev.filter((item) => item !== "150 Pages")
+                    : [...prev, "150 Pages"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("150 Pages") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+               150  pages
+              </p>
+            </div>
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("200 Pages")
+                    ? prev.filter((item) => item !== "200 Pages")
+                    : [...prev, "200 Pages"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("200 Pages") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+               200  pages
+              </p>
+            </div>
+
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("300 Pages")
+                    ? prev.filter((item) => item !== "300 Pages")
+                    : [...prev, "300 Pages"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("200 Pages") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+               300  pages
+              </p>
+            </div>
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("400 Pages")
+                    ? prev.filter((item) => item !== "400 Pages")
+                    : [...prev, "400 Pages"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("400 Pages") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+               400  pages
+              </p>
+            </div>
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("500 Pages")
+                    ? prev.filter((item) => item !== "500 Pages")
+                    : [...prev, "500 Pages"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("500 Pages") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+               500  pages
+              </p>
+            </div>
+
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Maths, Pc Seconde C")
+                    ? prev.filter((item) => item !== "Maths, Pc Seconde C")
+                    : [...prev, "Maths, Pc Seconde C"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Maths, Pc Seconde C") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+               Top Chrono  Seconde C
+              </p>
+            </div>
+
+
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Maths, Pc Première C")
+                    ? prev.filter((item) => item !== "Maths, Pc Première C")
+                    : [...prev, "Maths, Pc Première C"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Maths, Pc Première C") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+               Top Chrono  Première C
+              </p>
+            </div>
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Maths, Pc Première D")
+                    ? prev.filter((item) => item !== "Maths, Pc Première D")
+                    : [...prev, "Maths, Pc Première D"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Maths, Pc Première D") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+               Top Chrono  Première D
+              </p>
+            </div>
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Maths, Pc Tle D")
+                    ? prev.filter((item) => item !== "Maths, Pc Tle D")
+                    : [...prev, "Maths, Pc Tle D"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Maths, Pc Tle D") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+               Top Chrono  Tle D
+              </p>
+            </div>
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Maths, Pc Tle C")
+                    ? prev.filter((item) => item !== "Maths, Pc Tle C")
+                    : [...prev, "Maths, Pc Tle C"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Maths, Pc Tle C") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+               Top Chrono  Tle C
+              </p>
+            </div>
+
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Philo, H-G Tle A")
+                    ? prev.filter((item) => item !== "Philo, H-G Tle A")
+                    : [...prev, "Philo, H-G Tle A"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Philo, H-G Tle A") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+               Top Chrono  Tle A
+              </p>
+            </div>
+
+            
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Philo, H-G Première A")
+                    ? prev.filter((item) => item !== "Philo, H-G Première A")
+                    : [...prev, "Philo, H-G Première A"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Philo, H-G Première A") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+                Top Chrono Première A
+              </p>
+            </div>
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Math, Pc Ang, Fr 3 ième")
+                    ? prev.filter((item) => item !== "Math, Pc Ang, Fr 3 ième")
+                    : [...prev, "Math, Pc Ang, Fr 3 ième"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Math, Pc Ang, Fr 3 ième") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+                Top Chrono 3 ième 
+              </p>
+            </div>
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Maths-info prepa")
+                    ? prev.filter((item) => item !== "Maths-info prepa")
+                    : [...prev, "Maths-info prepa"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Maths-info prepa") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+                Prépa sup ,Math-info
+              </p>
+            </div>
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Prépa Economie Première année")
+                    ? prev.filter((item) => item !== "Prépa Economie Première année")
+                    : [...prev, "Prépa Economie Première année"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Prépa Economie Première année") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+                Prépa Economie Première année
+              </p>
+            </div>
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Economie Première-Deuxième année")
+                    ? prev.filter((item) => item !== "Economie Première-Deuxième année")
+                    : [...prev, "Economie Première-Deuxième année"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Economie Première-Deuxième année") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+               Economie Première-Deuxième année
+              </p>
+            </div>
+
+            <div
+              onClick={() =>
+                setSizes((prev) =>
+                  prev.includes("Droit des affaires Première-Deuxième")
+                    ? prev.filter((item) => item !== "Droit des affaires Première-Deuxième")
+                    : [...prev, "Droit des affaires Première-Deuxième"]
+                )
+              }
+            >
+              <p
+                className={`${
+                  sizes.includes("Droit des affaires Première-Deuxième") ? "bg-pink-100" : "bg-slate-200"
+                } px-3 py-1 cursor-pointer`}
+              >
+               Droit des affaires Première-Deuxième 
+              </p>
+            </div>
+
+
+          
             <div
               onClick={() =>
                 setSizes((prev) =>
