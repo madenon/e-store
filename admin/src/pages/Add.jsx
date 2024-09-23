@@ -675,7 +675,7 @@ const Add = ({token}) => {
                 setSizes((prev) =>
                   prev.includes("Marron")
                     ? prev.filter((item) => item !== "Marron")
-                    : [...prev, "BeiMarronge"]
+                    : [...prev, "Marron"]
                 )
               }
             >
